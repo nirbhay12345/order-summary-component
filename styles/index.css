@@ -1,0 +1,28 @@
+:root {
+    /* ### Primary */
+
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /* ### Neutral */
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+@media screen and (min-width: 375px) {
+    body {
+        background-color: var(--Pale-blue);
+        background: url(../images/pattern-background-mobile.svg) no-repeat top; 
+        -webkit-background-size: 100% 50%; 
+        -moz-background-size: 100% 50%;
+        -o-background-size: 100% 50%;
+        background-size: 100% 50%;
+        background-color: var(--Pale-blue);
+    }
+    #mainDiv {
+        margin-top: 2em;
+    }
+}
