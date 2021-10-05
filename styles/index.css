@@ -12,7 +12,7 @@
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 140px) {
     body {
         background-color: var(--Pale-blue);
         background: url(../images/pattern-background-mobile.svg) no-repeat top; 
